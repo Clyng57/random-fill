@@ -1,0 +1,39 @@
+{
+  "name": "@neumatter/random-fill",
+  "version": "1.0.0",
+  "description": "Random Fill function. Works in node and browser.",
+  "repository": {
+    "url": "https://github.com/Clyng57/random-fill"
+  },
+  "type": "module",
+  "author": "Cal Young",
+  "keywords": [
+    "arraybuffer",
+    "browser",
+    "buffer",
+    "dataview",
+    "uint8array",
+    "random",
+    "randomBytes",
+    "randomValues",
+    "randomFill",
+    "getRandomValues",
+    "nodejs",
+    "string",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "browser": "./browser.js",
+  "types": "./types/index.d.ts",
+  "dependencies": {
+    "byteview": "^2.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "/types"
+    ]
+  }
+}
